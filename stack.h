@@ -15,3 +15,4 @@ int sizeOfStack(struct Stack* stack);
 int isFull(struct Stack* stack);
 void push(char c,struct Stack* stack)
 char pop(struct Stack* stack);
+void print(stack *s)

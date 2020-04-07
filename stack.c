@@ -40,3 +40,13 @@ char pop(struct Stack* stack)
 {
     return stack->elements[stack->top--];
 }
+
+//example 2 Q1
+void print(stack *s)
+{
+	int i;
+	for(i=s->top;i>0;i++)
+	{
+	printf("%c"&elements[i]);
+	}
+}
