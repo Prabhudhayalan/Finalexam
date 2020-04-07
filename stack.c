@@ -34,3 +34,9 @@ void push(char c,struct Stack* stack)
         return;
     stack->elements[++stack->top] = c;
 }
+
+//Implemented the Q5
+char pop(struct Stack* stack)
+{
+    return stack->elements[stack->top--];
+}
