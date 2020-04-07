@@ -12,11 +12,11 @@ int top ;
 int main ( )
 {
 struct stack * st = new_stack ();
-push ( ’H ’ , i ) ;
-push ( ’ e ’ , i ) ;
-push ( ’ l ’ , i ) ;
-push ( ’ l ’ , i ) ;
-push ( ’ o ’ , i ) ;
+push ( ’H ’, st );
+push ( ’ e ’, st );
+push ( ’ l ’, st );
+push ( ’ l ’, st );
+push ( ’ o ’, st );
 print (st);
 reverseprint (st);
 }
