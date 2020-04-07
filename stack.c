@@ -16,3 +16,9 @@ char peek(struct Stack* stack)
         return INT_MIN;
     return stack->elements[stack->top];
 }
+
+//Implemented the Q3
+int sizeOfStack(struct Stack* stack)
+{
+	return stack->top;
+}
