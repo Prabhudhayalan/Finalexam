@@ -8,3 +8,11 @@ struct Stack* new_stack()
     stack->elements = (char*)malloc(STACK SIZE * sizeof(char));
     return stack;
 }
+
+//Implemented the Q2
+char peek(struct Stack* stack)
+{
+    if (isEmpty(stack))
+        return INT_MIN;
+    return stack->elements[stack->top];
+}
