@@ -50,3 +50,13 @@ void print(stack *s)
 	printf("%c"&elements[i]);
 	}
 }
+
+//example 2 Q2
+void reverse(stack *s)
+{
+	int i;
+	for(i=0;i<s->top;i++)
+	{
+	printf("%c"&elements[i]);
+	}
+}
