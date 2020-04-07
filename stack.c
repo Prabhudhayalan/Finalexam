@@ -22,3 +22,15 @@ int sizeOfStack(struct Stack* stack)
 {
 	return stack->top;
 }
+
+//Implemented the Q4
+int isFull(struct Stack* stack)
+{
+    return stack->top == STACK_SIZE - 1;
+}
+void push(char c,struct Stack* stack)
+{
+    if (isFull(stack))
+        return;
+    stack->elements[++stack->top] = c;
+}
